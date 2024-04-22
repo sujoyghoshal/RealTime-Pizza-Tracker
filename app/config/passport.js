@@ -19,7 +19,7 @@ function init(passport) {
         }).catch(err => {
             return done(null, false, { message: 'Something went wrong' })
         })
-    }))
+    }))  
 
     passport.serializeUser((user, done) => {
         done(null, user._id)
