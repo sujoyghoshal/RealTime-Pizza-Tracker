@@ -1,7 +1,7 @@
 # Real-Time Pizza Ordering System
 
 This project aims to create a real-time pizza ordering system using Node.js, MongoDB, JavaScript, and Stripe for payment processing.
-
+  
 ## Project Overview
 
 The project intends to build a web application that enables users to order pizzas online in real-time. Key features include:
