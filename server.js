@@ -45,7 +45,7 @@ app.use(session({
     saveUninitialized: false,
     cookie: { maxAge: 1000 * 60 * 60 * 24 } // 24 hour
 }))
-
+  
 // Passport config
 const passportInit = require('./app/config/passport')
 passportInit(passport)
@@ -68,6 +68,10 @@ app.use((req, res, next) => {
 app.use(expressLayout)
 app.set('views', path.join(__dirname, '/resources/views'))
 app.set('view engine', 'ejs')
+//* payment :
+
+
+
 
 require('./routes/web')(app)
 app.use((req, res) => {
@@ -78,7 +82,7 @@ const server = app.listen(PORT , () => {
             console.log(`Listening on port ${PORT}`)
         })
 
-// Socket
+//*Socket
 
 const io = require('socket.io')(server)
 io.on('connection', (socket) => {
