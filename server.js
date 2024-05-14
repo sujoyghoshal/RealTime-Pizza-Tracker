@@ -4,7 +4,7 @@ const app = express()
 const ejs = require('ejs')   
 const path = require('path')
 const expressLayout = require('express-ejs-layouts')
-const PORT = process.env.PORT || PORT
+const PORT = process.env.PORT || 3000
 const mongoose = require('mongoose')
 const session = require('express-session')
 const flash = require('express-flash')
@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_URL, {
      useFindAndModify : true  
     });
 const connection = mongoose.connection;
-connection.once('open', () => {
+connection.once('open', () => { 
     console.log('Database connected...');
 }).catch(err => {
     console.log('Connection failed...')
@@ -100,3 +100,4 @@ eventEmitter.on('orderPlaced', (data) => {
     io.to('adminRoom').emit('orderPlaced', data)
 })
 
+ 
