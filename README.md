@@ -21,8 +21,3 @@ The project intends to build a web application that enables users to order pizza
 - **HTML/CSS/SCSS**: Frontend markup and styling
 - **JavaScript**: Frontend and backend scripting language
 - **Git/GitHub**: Version control and collaboration platform
-
-## Installation
-
-1. Clone the repository:
-
