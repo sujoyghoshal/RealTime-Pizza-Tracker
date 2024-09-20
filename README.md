@@ -55,9 +55,12 @@ A comprehensive real-time pizza delivery tracking system built with Node.js, Exp
 
     ```bash
     PORT=3000
+    COOKIE_SECRET='Your secret KEY'
     MONGO_URI=<your_mongodb_connection_string>
     EMAIL_USER=<your_email_address>
     EMAIL_PASS=<your_email_password>
+    GMAIL_USER=sujoyghoshal.s@gmail.com
+    GMAIL_PASS=cxspuzwlfoebftuz
     ```
 
 4. **Run the app**:
@@ -121,7 +124,7 @@ Nodemailer is used to send order confirmation and status updates to customers.
 ## Deployment on Vercel 🔥
 
 1. **Push the project to GitHub**.
-2. **Sign in to Vercel** and link the repository.
+2. **Sign in to render** https://sujoy-pizza.onrender.com/
 3. **Configure the environment variables** in Vercel.
 4. **Deploy** the project.
 
