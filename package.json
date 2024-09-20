@@ -30,6 +30,7 @@
     "noty": "^3.2.0-beta",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
+    "realtime-pizza": "file:",
     "socket.io": "^4.7.5",
     "stripe": "^8.118.0"
   },

@@ -176,7 +176,6 @@ async function sendOrderConfirmationEmail(req, res, next) {
                         <div class="order-info">Customer Name: ${req.user.name}</div>
                         <div class="order-item">
                             <div>Order Items:</div>
-                            shantanu woner :
                         </div>
                     </div>
                 </body>
