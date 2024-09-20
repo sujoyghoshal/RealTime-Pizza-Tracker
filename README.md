@@ -5,7 +5,7 @@ A comprehensive real-time pizza delivery tracking system built with Node.js, Exp
 ## Deployment on Render 🔥
 
 1. **Push the project to GitHub**.
-2. **deploy** https://sujoy-pizza.onrender.com/
+2. **deploy** https://sujoy-pizza.onrender.com
 
 ![Real-Time Pizza Tracker](./images/dashboard.png)
 
