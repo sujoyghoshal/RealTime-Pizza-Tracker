@@ -100,22 +100,22 @@ Nodemailer is used to send order confirmation and status updates to customers.
 3. Send email notifications:
 
     ```javascript
-    const transporter = require('./mailer');
+      const transporter = nodemailer.createTransport({
+                service: "gmail",
+                secure: true,
+                port: 465,
+                auth: {
+                    user: process.env.GMAIL_USER,
+                    pass: process.env.GMAIL_PASS
+                }
+            });
 
-    const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: 'customer@example.com',
-      subject: 'Order Confirmation',
-      text: 'Your pizza order has been confirmed!'
-    };
-
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('Email sent: ' + info.response);
-      }
-    });
+     const mailOptions = {
+                from: process.env.GMAIL_USER,
+                to: req.user.email,
+                subject: "Order Confirmation",
+                text: `Hello ${req.user.name}, your order has been confirmed! Order ID: ${order._id}` 
+            };
     ```
 
 ## Deployment on Vercel 🔥
