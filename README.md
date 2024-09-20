@@ -2,7 +2,12 @@
 
 A comprehensive real-time pizza delivery tracking system built with Node.js, Express, MongoDB, EJS, and Socket.IO. It features a customer and admin dashboard, order tracking, and real-time updates. The app also integrates Nodemailer for sending email notifications.
 
-![Real-Time Pizza Tracker](./images/pizza-tracker-banner.png)
+## Deployment on Render 🔥
+
+1. **Push the project to GitHub**.
+2. **eploy** https://sujoy-pizza.onrender.com/
+
+![Real-Time Pizza Tracker](./images/dashboard.png)
 
 ## Features ✨
 
@@ -22,11 +27,11 @@ A comprehensive real-time pizza delivery tracking system built with Node.js, Exp
 
 ## Screenshots 📸
 
-### Customer Dashboard
-![Customer Dashboard](./images/customer-dashboard.png)
+### Payment Dashboard
+![Customer Dashboard](./images/payament.png)
 
 ### Admin Panel
-![Admin Panel](./images/admin-panel.png)
+![Admin Panel](./images/admin.png)
 
 ## Getting Started 🚀
 
@@ -121,13 +126,6 @@ Nodemailer is used to send order confirmation and status updates to customers.
             };
     ```
 
-## Deployment on Vercel 🔥
-
-1. **Push the project to GitHub**.
-2. **Sign in to render** https://sujoy-pizza.onrender.com/
-3. **Configure the environment variables** in Vercel.
-4. **Deploy** the project.
-
 ## Contributing 🤝
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/sujoyghoshal/RealTime-Pizza-Tracker/issues).
@@ -139,6 +137,4 @@ This project is licensed under the MIT License.
 ## Contact 📬
 
 - **Author**: [Sujoy Ghoshal](https://github.com/sujoyghoshal)
-- **Email**: sujoy@example.com
-
-![Footer Image](./images/footer-pizza.png)
+- **Email**: sujoyghoshal.s@gmail.com
