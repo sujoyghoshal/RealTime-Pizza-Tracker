@@ -23,7 +23,7 @@ A comprehensive real-time pizza delivery tracking system built with Node.js, Exp
 - **Frontend**: HTML, CSS, Bootstrap, EJS
 - **Backend**: Node.js, Express, MongoDB, Socket.IO
 - **Email**: Nodemailer
-- **Deployment**: Vercel (Frontend), Render (Backend)
+- **Deployment**:Render (All)
 
 ## Screenshots 📸
 
